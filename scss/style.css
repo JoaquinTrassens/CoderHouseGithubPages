@@ -1,0 +1,59 @@
+.bg-purple {
+  background-color: #c484ff;
+}
+
+.footer {
+  background-color: #c484ff;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.box-carousel {
+  width: 700px;
+  height: 200px;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.segundaSeccion {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 576px) {
+  .titulosFooter {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .redesFooter {
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .titulosFooter {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .redesFooter {
+    width: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titulosFooter {
+    font-size: 22px;
+    margin-top: 6px;
+  }
+  .redesFooter {
+    width: 35px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
