@@ -34,6 +34,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="../scss/style.css">
+  <!-- Agregue fontAwesome para añadir iconos al proyecto -->
+  <script src="https://kit.fontawesome.com/95c79d143f.js" crossorigin="anonymous"></script>
 
   <title>skinZcs tu cuenta, tu configuracion!</title>
 </head>
@@ -75,35 +77,119 @@
       </div>
     </nav>
   </header>
+  <!-- Termina el header -->
+  <!-- Comienza la primera seccion -->
 
-  <footer class="footer">
+  <section>
+    <div class="card bg-dark text-white cardFondoLogueo">
+      <img src="../multimedia/background/fONDO-DE-LOGUEO (3).png" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h1 class="card-title textoFondoLogueo">REGISTRATE O LOGUEATE AQUI</h1>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Termina la primera seccion -->
+
+  <section>
+    <div>
+      <div class="container">
+        <div class="row filaLogueo">
+          <div class="col-5">
+            <div class="card">
+              <img src="../multimedia/logos/logueo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AK-47 Acero Templado</h5>
+                <p class="card-text"><strong>Condicion:</strong> Minimal wear <span
+                    style="display: block;"><strong>Precio:</strong> 35USD</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
+
+          </div>
+          <div class="col-5">
+            <div class="card">
+              <img src="../multimedia/logos/logueo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AK-47 Acero Templado</h5>
+                <p class="card-text"><strong>Condicion:</strong> Minimal wear <span
+                    style="display: block;"><strong>Precio:</strong> 35USD</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" container modal-dialog text-center">
+      <div class="row filaLogueo">
+        <div class="col-sm-12 main-section">
+          <div class="modal-content">
+            <div class="col-12"></div>
+            <img src="../multimedia/logos/logueo.png" alt="">
+          </div>
+          <form class="col-12">
+            <div class="form-group" id="user-group">
+              <input type="text" class="form-control" placeholder="Nombre de usuario">
+            </div>
+            <div class="form-group" id="contrasena-group">
+              <input type="password" class="form-control" placeholder="Contrasena">
+            </div>
+            <button type="submit" class="btn btn-primary"> Ingresar</button>
+          </form>
+        </div>
+        <div class="col main section">
+          <div class="modal-content">
+            <div class="col"></div>
+            <img src="../multimedia/logos/logueo.png" alt="">
+          </div>
+          <form class="col">
+            <div class="form-group" id="user-group">
+              <input type="text" class="form-control" placeholder="Nombre de usuario">
+            </div>
+            <div class="form-group" id="contrasena-group">
+              <input type="password" class="form-control" placeholder="Contrasena">
+            </div>
+            <button type="submit" class="btn btn-primary"> Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer container-fluid">
     <div class="row">
       <div class="col-lg-4 col-md-4">
-        <a href="../index.html"><img src="../multimedia/logos/logoskinzcs1.png" width="220px" alt="logoskinzcs1"></a>
+        <a class="logoFooter" href="../index.html"><img src="../multimedia/logos/logoskinzcs1.png" width="220px"
+            alt="logoskinzcs1"></a>
       </div>
       <div class="col-lg-4 col-md-4">
         <h3 class="titulosFooter">Nuestras skins</h3>
-        <ul>
-          <li><a href="tienda.html"></a>Agentes</li>
-          <li><a href="tienda.html"></a>Cuchillos</li>
-          <li><a href="tienda.html"></a>Guantes</li>
-          <li><a href="tienda.html"></a>Pistolas</li>
-          <li><a href="tienda.html"></a>Rifles</li>
+        <ul class="puntoListas">
+          <li><a class="hipervinculos" href="./html/tienda.html">Agentes</a></li>
+          <li><a class="hipervinculos" href="./html/tienda.html">Cuchillos</a></li>
+          <li><a class="hipervinculos" href="./html/tienda.html">Guantes</a></li>
+          <li><a class="hipervinculos" href="./html/tienda.html">Pistolas</a></li>
+          <li><a class="hipervinculos" href="./html/tienda.html">Rifles</a></li>
         </ul>
       </div>
       <div class="col">
         <h3 class="titulosFooter">Contacto</h3>
-        <ul>
-          <li><a href="https://www.instagram.com/joaacoelias/"></a><img src="../multimedia/logos/logoInstagram.png"
-              width="40px" alt="">Instagram</li>
-          <li><a href=""></a><img src="../multimedia/logos/logoTwitter.png" width="40px" alt="">Twitter</li>
-          <li><a href=""></a><img src="../multimedia/logos/logoFacebook.png" width="40px" alt="">Facebook</li>
-          <li><a href=""></a></li>
+        <ul class="puntoListas">
+          <li><a class="hipervinculos" href="https://www.instagram.com/joaacoelias/"><i
+                class="fab fa-instagram fa-2x"></i>Instagram</a></li>
+          <li><a class="hipervinculos" href="https://twitter.com/Joaacoelias"><i
+                class="fab fa-twitter fa-2x"></i>Twitter</a></li>
+          <li><a class="hipervinculos" href="https://www.facebook.com/Joaco98asdasd/"><i
+                class="fab fa-facebook fa-2x"></i>Facebook</a></li>
+          <li><a class="hipervinculos" href="mailto:trassensjoaquin@gmail.com"><i
+                class="fas fa-envelope fa-2x"></i>Gmail</a></li>
         </ul>
       </div>
     </div>
     <div>
-      <p>Todos los derechos reservados para skinZcs.com.ar</p>
+      <p class="ultimoMensajeFooter">Todos los derechos reservados para skinZcs.com.ar</p>
     </div>
   </footer>
 
